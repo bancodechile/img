@@ -1,0 +1,90 @@
+
+
+@import 'settings';
+@import 'foundation';
+
+
+
+.header {
+    background-color: #D1D8E1;
+    text-align: center;
+    padding: 0!important;
+    h3 {
+        text-align: center;
+        font-size: 15px;
+        line-height: 45px;
+        margin: 0;
+        font-weight: normal;
+    }
+    
+}
+.block-info {
+    p {
+        color: #2BB5B9;
+        font-size: 17px;
+    }
+}
+
+.block-arrow {
+    background: #2BB5B9;
+    text-align: center;
+    
+}
+.arrow2 {
+    img {
+        max-width: 30px;
+    }
+    
+}
+.arrow {
+    img {
+        max-width: 35px;
+    }
+    
+}
+.padding-none {
+    padding: 0!important;
+}
+
+.bg-success {
+    background-color: #2BB5B9;
+    padding-top: 20px;
+    padding-bottom: 20px!important;
+    p {
+        color: #fff;
+        font-size: 17px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+    
+
+
+}
+.textImg {
+    min-width: 300px;
+    max-width: 80%;
+}
+.chanchitoImg {
+    min-width: 35px;
+    max-width: 60px;
+}
+.logoImg {
+    min-width: 150px;
+    max-width: 200px;
+}
+.manoImg {
+    min-width: 175px; 
+}
+.cont-img {
+    text-align: center;
+    padding: 20px 0;
+    img {
+        margin: 0 auto;
+    }
+}
+.appImg {
+    max-width: 75px;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        max-width: 50px;
+    }
+}   
